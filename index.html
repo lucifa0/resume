@@ -5,16 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ronish Portfolio</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
   </head>
   <body>
-    <header>
+    <header class="header container">
       <nav>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
+        <div class="header__logo">
+          <a href="/"
+            ><h1><span class="logo">R</span> RONISH</h1></a
+          >
+        </div>
+        <ul class="header__menu">
+          <li><a class="header__link" href="#">Home</a></li>
+          <li><a class="header__link" href="#">Projects</a></li>
+          <li><a class="header__link" href="#">About Me</a></li>
+          <li><a class="header__link" href="#">Contact Me</a></li>
         </ul>
+        <button class="header__hambg btn">
+          <img class="hambg__img" src="./img/hambg__icon.png" />
+        </button>
       </nav>
     </header>
   </body>
